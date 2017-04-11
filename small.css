@@ -15,8 +15,8 @@ i{
 }
 #proPic{
 	text-align: center;
-	height:180px ;
-	width:180px;
+	height:140px ;
+	width:140px;
 	border-radius:12%; 
 }
 .desktopHide{
@@ -41,7 +41,7 @@ i{
 	padding-right: 8%;
 	color:#929ca3;
 	margin-top: 100;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;
 	font-family: "avenir", sans-serif;
 	padding-bottom: 20%;
@@ -81,8 +81,7 @@ h1{
 #fedu,#fskl,#fprj,#fint,#fint,#fintro{
 	display: inline-block;
 	font-size: .4em;
-	margin:1.5%;
-	padding-left:1.2%;
+	margin:2.5%;
 	 }
 #makeMeSmall{
 	font-size: .5em;
