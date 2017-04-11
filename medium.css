@@ -1,0 +1,106 @@
+	h1#intro,h1#edu,h1#prj,h1#skl,h1#int{
+		color:#f1f1f1;
+		text-align: center;
+		font-size:2.2em;
+		float:left;
+	}
+	#profile{
+		background:#202020;
+		position:fixed;
+		top:0;
+		right: 0;
+		left: 0;
+		text-align:center;
+		width:100%;
+	font-family: "avenir", sans-serif;
+	
+	}
+	#fintro{
+		display: none;
+	}
+		#panelskl,#panelprj,#panelint,#paneledu,#sklshow,#fskl,#fprj,#fint,#fedu{
+			display: none;
+		}
+				h1#name:hover{color:#202020;}
+
+h1{
+	font-size:3.5em;color:#56D0C1;
+}
+	#flipedu:hover,#flipskl:hover,#flipintro:hover,#flipint:hover,#flipprj:hover{
+		cursor: pointer; 
+		color: white;
+	}
+	.desktopHide{
+		display: none;
+	}
+	#edu,#skl,#prj,#int,#intro,#flipedu,#flipskl,#flipprj,#flipint,#flipintro{
+		 font-size: .5em;
+		 margin-top: 1%;
+		 color:gray;
+		 padding-left: 6%;	 
+	}
+ 
+	#name{
+		 color:#56d0c1;
+		 text-align:center;
+		 font-size:4.5em;
+		 padding-right: 15%;
+		 padding-left: 15%;
+		 font-family: 'Pacifico', cursive;
+
+	}
+	#fintro{
+		display: none;
+	}
+	body{
+		background:#F8F8F8 	; 
+
+	}
+	.timeline{
+		font-weight: 200;
+		margin-top:5rem; 
+		color: #9ea4aa;
+		font-size: .56em;
+		text-align: center;
+		padding-right: 18%;
+		padding-left: 18%;
+	font-family: "avenir", sans-serif;
+		
+	}
+		p a{
+			color: #56d0c1;
+			text-decoration: none; 
+
+		}
+	p{
+		margin:0 auto;
+		text-align:center; 
+		font-size:2em;
+	}	
+	#icn{
+		color:#202020;
+		text-align: center;
+		font-size: 24px;
+		bottom: 0;
+		
+	}
+	#quote{
+		color:#202020;
+		 text-align:center;
+		 font-size:1.6em;
+		 font-family: 'Gloria Hallelujah', cursive;
+	}
+	h1{
+		text-align: center;
+		font-size: 2em;
+	}
+
+	#icn:hover{
+		color: black;
+		font-size: 28px;
+		}	#proPic{ 
+		height:180px ;width:175px;border-radius:15% ;     background-attachment: fixed;
+
+	}
+
+#makeMeSmall{visibility: hidden;}

@@ -1,0 +1,116 @@
+
+		a:hover{
+			color: #202020;
+			
+		}
+	h1#intro,h1#edu,h1#prj,h1#skl,h1#int{
+		color:#f1f1f1;
+		text-align: center;
+		font-size:2.2em;float:left;
+	}
+	#profile{
+		background:#202020;
+		position:fixed;
+		top:0;
+		left: 0;
+		text-align:center;
+		width:100%;
+	font-family: "avenir", sans-serif;
+	
+	}	
+	#panelskl,#panelprj,#panelint,#paneledu,#sklshow,#fskl,#fprj,#fint,#fedu{
+			display: none;
+			width: 100%;
+		}
+		h1#name:hover{color:#202020;}
+h1{
+	font-size:3.5em;color:#56D0C1;
+}
+	#flipedu:hover,#flipskl:hover,#flipintro:hover,#flipint:hover,#flipprj:hover{
+		cursor: pointer; 
+		color: white;
+	}
+	.desktopHide{
+		display: none;
+	}
+	#edu,#skl,#prj,#intro,#int,#flipedu,#flipskl,#flipprj,#flipint{
+		 font-size: .6em;
+		 margin-top: 1%;
+		 color:gray;
+		 padding-left: 8%;	 
+	}
+	#intro,#flipintro{
+		color: #f1f1f1;
+		 font-size: .6em;
+		 margin-top: 1%;
+		 padding-left: 8%;
+	}
+	#name{
+		 color:#56d0c1;
+		 text-align:center;
+		 font-size:4.8em;
+		 padding-right: 15%;
+		 padding-left: 15%;
+		 font-family: 'Pacifico', cursive;
+
+	}
+	#fintro{
+		display: none;
+	}
+	body{
+		background:#F8F8F8 	; 
+
+	}
+	.timeline{
+		padding-bottom: 9px;
+		margin-top:5rem; 
+		color: #9ea4aa;
+		font-size: .65em;
+		font-weight: 200;
+		text-align: center;
+		padding-right: 20%;
+		padding-left: 20%;
+	font-family: "avenir", sans-serif;
+		
+	}
+		p a{
+			color: #56d0c1;
+			text-decoration: none; 
+
+
+		}
+	
+	p{
+		margin:0 auto;
+		text-align:center; 
+		font-size:2.3em;
+	}	
+	#icn{
+		color:#202020;
+		text-align: center;
+		font-size: 30px;
+		bottom: 0;
+			}
+
+	#icn:hover{
+		color: black;
+		font-size: 28px;
+		}
+
+		#quote{
+		color:#202020;
+		 text-align:center;
+		 font-size:2em;
+		 font-family: 'Gloria Hallelujah', cursive;
+	}
+	#proPic{ 
+		height:270px ;
+		width:260px;
+		border-radius:15% ;   
+		background-attachment: fixed;
+		background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+	}
+#makeMeSmall{visibility: hidden;}

@@ -1,0 +1,95 @@
+.mobileHide{
+	display: none;
+}
+h1#name:hover{color:#202020;}
+
+#icn{
+		color:#56D0C1;
+		font-size: 40px;
+		bottom: 0;	
+	}
+	#social{
+		color:#56D0C1;
+		text-align: center;
+		font-size: 22px;
+		bottom: 0;
+	}
+#name{
+	 color:#56D0C1;
+	 text-align:center;
+	 font-size:2.5em;
+	 margin-top:0;
+	 font-family: 'Pacifico', cursive;
+
+}
+  .timeline{
+	margin-top:;
+	font-size: .65em;
+	color: #9ea4aa;
+	font-weight: 300;
+	font-family: "avenir", sans-serif;
+	}
+
+#panelskl,#panelprj,#panelint,#paneledu,#sklshow{
+		display: none;
+	}
+
+i{
+	color: #56D0C1;
+}
+	p a{
+		color: #56D0C1;
+		text-decoration: none;
+	}
+	 a:hover{
+		color: #202020;
+		text-decoration: line-through ; 
+	}
+p{
+	margin:0 auto;
+	text-align:center; 
+	font-size:2em;
+}	
+
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+#proPic{
+	height: 170px;
+	width: 160px;
+	border-radius: 20%;
+}
+#icn{
+		color:#56D0C1;
+		font-size: 26px;
+		bottom: 0;	
+	}
+
+	#icn:hover{
+		color: #202020;
+		font-size: 28px;
+		}
+	#fintro{
+		font-size: .5em;
+	}
+#fedu,#fskl,#fprj,#fint,#fint,#fintro{
+	display: inline-block;
+	font-size: .5em;
+	margin:2%;
+	 }
+#makeMeSmall{
+	font-size: .5em;
+}
+.desktopHide{
+	text-align: center;
+}
+.bottomNavbar{
+	width: 100%;
+	background-color: #202020;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	opacity: .9;
+	padding-left: 20%;
+}

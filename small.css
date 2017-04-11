@@ -1,0 +1,89 @@
+.mobileHide{
+	display: none;
+}
+#name{
+	 color:#56D0C1;
+	 text-align:center;
+	 font-size:2.5em;
+	 margin-top:0;
+	 font-family: 'Pacifico', cursive;
+	}
+			h1#name:hover{color:#202020;}
+
+i{
+	color: #56D0C1;
+}
+#proPic{
+	text-align: center;
+	height:180px ;
+	width:180px;
+	border-radius:12%; 
+}
+.desktopHide{
+	text-align: center;
+}
+#icn{
+		color:#56D0C1;
+		text-align: center;
+		font-size: 29px;
+			
+	}
+	#icn:hover{
+		color: gray;
+		font-size: 28px;
+		}
+	#social{
+		color: #56d0c1;
+		font-size: 25px;
+	}
+.timeline{
+	padding-left: 8%;
+	padding-right: 8%;
+	color:#929ca3;
+	margin-top: 100;
+	font-size: 1.2em;
+	font-weight: 300;
+	font-family: "avenir", sans-serif;
+	padding-bottom: 20%;
+	}
+p a{
+		color: #56D0C1;
+		text-decoration: none; 
+	}
+ a:hover{
+		color: gray;
+		text-decoration: line-through ; 
+	}
+p{
+	margin:0 auto;
+	text-align:center;
+}
+h1{
+	text-align: center;
+	}
+.bottomNavbar{
+	width: 100%;
+	background-color: #202020;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	opacity: .9;
+	padding-left: 5%;
+}
+#social:hover{color:white;text-decoration: line-through;}
+
+#panelskl,#panelprj,#panelint,#paneledu,#sklshow{
+		display: none;
+	}
+	#fintro{
+		font-size: .5em;
+	}
+#fedu,#fskl,#fprj,#fint,#fint,#fintro{
+	display: inline-block;
+	font-size: .4em;
+	margin:1.5%;
+	padding-left:2%;
+	 }
+#makeMeSmall{
+	font-size: .5em;
+}
