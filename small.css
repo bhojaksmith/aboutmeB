@@ -2,7 +2,7 @@
 	display: none;
 }
 #name{
-	 color:#56D0C1;
+	 color:#40E0D0;
 	 text-align:center;
 	 font-size:2.5em;
 	 margin-top:0;
@@ -11,7 +11,7 @@
 			h1#name:hover{color:#202020;}
 
 i{
-	color: #56D0C1;
+	color: #40E0D0;
 }
 #proPic{
 	text-align: center;
@@ -23,7 +23,7 @@ i{
 	text-align: center;
 }
 #icn{
-		color:#56D0C1;
+		color:#40E0D0;
 		text-align: center;
 		font-size: 29px;
 			
@@ -33,7 +33,7 @@ i{
 		font-size: 28px;
 		}
 	#social{
-		color: #56d0c1;
+		color: #40E0D0;
 		font-size: 25px;
 	}
 .timeline{
@@ -47,7 +47,7 @@ i{
 	padding-bottom: 20%;
 	}
 p a{
-		color: #56D0C1;
+		color: #40E0D0;
 		text-decoration: none; 
 	}
  a:hover{
@@ -63,11 +63,11 @@ h1{
 	}
 .bottomNavbar{
 	width: 100%;
-	background-color: #202020;
+	background-color: #40E0D0;
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	opacity: .9;
+	opacity: .67;
 	padding-left: 5%;
 }
 #social:hover{color:white;text-decoration: line-through;}
