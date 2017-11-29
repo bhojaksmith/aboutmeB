@@ -1,90 +1,44 @@
+body{
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;	
+background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #26D0CE, #1A2980)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #26D0CE, #1A2980)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background: #4CB8C4;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-		a:hover{
-			color: #202020;
+
+}	
+	#panelprj,#fprj{
 			
-		}
-	h1#intro,h1#edu,h1#prj,h1#skl,h1#int{
-		color:#f1f1f1;
-		text-align: center;
-		font-size:2.2em;float:left;
-	}
-	#profile{
-		background:#202020;
-		position:fixed;
-		top:0;
-		left: 0;
-		text-align:center;
-		width:100%;
-	font-family: "avenir", sans-serif;
-	
-	}	
-	#panelskl,#panelprj,#panelint,#paneledu,#sklshow,#fskl,#fprj,#fint,#fedu{
-			display: none;
 			width: 100%;
-		}
-		h1#name:hover{color:#202020;}
-h1{
-	font-size:3.5em;color:#56D0C1;
-}
-	#flipedu:hover,#flipskl:hover,#flipintro:hover,#flipint:hover,#flipprj:hover{
-		cursor: pointer; 
-		color: white;
-	}
-	.desktopHide{
-		display: none;
-	}
-	#edu,#skl,#prj,#intro,#int,#flipedu,#flipskl,#flipprj,#flipint{
+		}#prj,#flipprj{
 		 font-size: .6em;
-		 margin-top: 1%;
 		 color:gray;
 		 padding-left: 8%;	 
-	}
-	#intro,#flipintro{
-		color: #f1f1f1;
-		 font-size: .6em;
-		 margin-top: 1%;
-		 padding-left: 8%;
-	}
-	#name{
-		 color:#56d0c1;
-		 text-align:center;
-		 font-size:4.8em;
-		 padding-right: 15%;
-		 padding-left: 15%;
-		 font-family: 'Pacifico', cursive;
-
-	}
-	#fintro{
-		display: none;
-	}
-	body{
-		background:#F8F8F8 	; 
-
-	}
-	.timeline{
-		padding-bottom: 9px;
-		margin-top:5rem; 
-		color: #9ea4aa;
-		font-size: .65em;
-		font-weight: 200;
-		text-align: center;
-		padding-right: 20%;
-		padding-left: 20%;
-	font-family: "avenir", sans-serif;
-		
-	}
-		p a{
-			color: #56d0c1;
+		 }
+	
+		 a{
+			color: #202020;
 			text-decoration: none; 
 
 
+		}
+		a:hover{
+			text-decoration: underline;
 		}
 	
 	p{
 		margin:0 auto;
 		text-align:center; 
-		font-size:2.3em;
+		font-size:1.3em;
 	}	
+	h1{
+		text-align: center;
+	}
 	#icn{
 		color:#202020;
 		text-align: center;
@@ -101,16 +55,53 @@ h1{
 		color:#202020;
 		 text-align:center;
 		 font-size:2em;
-		 font-family: 'Gloria Hallelujah', cursive;
+		 font-family: 'Pacifico', cursive;
 	}
 	#proPic{ 
 		height:270px ;
 		width:260px;
-		border-radius:15% ;   
-		background-attachment: fixed;
-		background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+		border-radius:15% ;
+		text-align: center;   
 	}
 #makeMeSmall{visibility: hidden;}
+
+i{
+	font-size: 26px;
+}
+#proj{
+	height:160px;
+	width: 230px;
+	box-shadow: 4px 4px gray;
+  	transition: box-shadow 3s ease-in-out;
+  	
+  	transition: width 0.3s ease-in-out;
+  	float: ;
+  	clear: ;
+}
+#proj:hover{
+    box-shadow: 10px 10px #202020;
+	width: 231px; 
+
+}
+#left{
+	float: left;
+	margin-left: 20%;
+	margin-top: -19%;
+		
+}
+#right{
+	float: right;
+	margin-right: 42%;
+	margin-top: -2%;
+		
+}
+#api{
+	float: right;
+	margin-right: 20%;
+	margin-top:-19%;
+}
+#quiz{
+	float: left;
+	margin-left: 65%;
+	margin-top:-18%;
+}
