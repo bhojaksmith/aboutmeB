@@ -5,13 +5,14 @@ html{
 	display: none;
 }
 body{
+	font-family: "avenir", sans-serif;
 	background: #42e2f4;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #24c6dc, #514a9d)fixed;  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #24c6dc, #514a9d)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 	background-attachment: fixed;
 }
 a{
-		color: #202020;
+		color: #f1f1f1;
 		text-decoration: none; 
 	}
  a:hover{
@@ -21,8 +22,9 @@ p{
 	text-align:center;
 }
 h1{
+	font-family: 'Billabong';
 	text-align: center;
-	color:gray; 
+	
 	}
 #fedu,#fskl,#fprj,#fint,#fint,#fintro{
 	display: inline-block;

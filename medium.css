@@ -1,11 +1,13 @@
 body{
 	height: 100%;
+		font-family: "avenir", sans-serif;
+color: #f1f1f1;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;	
 background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24c6dc, #514a9d)fixed;  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #24c6dc, #514a9d)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background: -webkit-linear-gradient(to left, #24c6dc, #514a9d)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #24c6dc, #514a9d)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 /*background: #4CB8C4;  /* fallback for old browsers */
 	/*background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
 	/*background: linear-gradient(to right, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -22,7 +24,7 @@ background: -webkit-linear-gradient(to right, #24c6dc, #514a9d)fixed;  /* Chrome
 		 }
 	
 		 a{
-			color: #202020;
+			color: #f1f1f1;
 			text-decoration: none; 
 
 
@@ -37,10 +39,11 @@ background: -webkit-linear-gradient(to right, #24c6dc, #514a9d)fixed;  /* Chrome
 		font-size:1.3em;
 	}	
 	h1{
+		font-family: 'Billabong';
 		text-align: center;
 	}
 	#icn{
-		color:#202020;
+		color:#f1f1f1;
 		text-align: center;
 		font-size: 30px;
 		bottom: 0;
@@ -52,7 +55,7 @@ background: -webkit-linear-gradient(to right, #24c6dc, #514a9d)fixed;  /* Chrome
 		}
 
 		#quote{
-		color:#202020;
+		color:#f1f1f1;
 		 text-align:center;
 		 font-size:2em;
 		 font-family: 'Pacifico', cursive;
